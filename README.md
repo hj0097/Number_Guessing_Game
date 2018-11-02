@@ -1,3 +1,5 @@
 # Number_Guessing_Game
-number guessing in python with error handeling in it
-its writen in basic python loops like while and decission amking function if-else
+number guessing in python with error handeling in it.
+
+its writen in basic python loops like while and decission making function if-else.
+its use random funcion too for random number generation.

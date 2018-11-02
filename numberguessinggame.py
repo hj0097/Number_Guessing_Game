@@ -15,14 +15,14 @@ elif p == "y":
     print(" lets start")
 
 
-    while num2 != number:
-        while True:
-            try:
+    while num2 != number:            #its for let this game going 
+        while True:                  #its forcing the user to give  a vaild entry 
+            try:                     #its for error handeling   
                 num2 = int(input("pls enter a number between 1 and 100 : "))
                 break
             except Exception:
                 print("enter a number : ")
-        tries = tries + 1
+        tries = tries + 1 
 
         if num2 > number:
             print("guess lower")
